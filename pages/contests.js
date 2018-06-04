@@ -7,8 +7,7 @@ export default class extends React.Component {
                     background : red;
                     background : #FF0000;
                     background : rgb(255,0,0) ;
-                    color: yellow ;
-                    font-size: 10.5em;
+                    
 
                     button {
                         font-weight:bold ;
@@ -18,7 +17,7 @@ export default class extends React.Component {
             }</style>
             <script src="style.js"></script>
             <link rel="stylesheet" href="style.css"/>
-            
+            <link href="/static/base.css" rel="stylesheet"/>
             <a href="/">Домой!</a>
             <h1> Это список контестов!</h1>
         </>
